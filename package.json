@@ -1,0 +1,14 @@
+{
+  "name": "cover-letter",
+  "version": "1.0.0",
+  "description": "Primer proyecto de programación web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Iván Romero Méndez",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.1.0"
+  }
+}

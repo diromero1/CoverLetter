@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- metadata -->
+	<meta charset="UTF-8">
+	<!-- responsive property -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<!-- favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="img/icono.jpg">
+	<link rel="canonical" href="/">
+	<title>
+		Daniel Iván Romero Méndez
+	</title>
+	<!--styles-->
+	<link rel="stylesheet" href="boot.css" />
+	<!-- descripción -->
+	<meta name="description" content="Cover letter to introduce myself, who I am and which are my skills">
+	<!-- palabras clave -->
+	<meta name="keywords" content="Cover, letter">
+	<!-- autor -->
+	<meta name="author" content="Daniel Iván Romero Méndez">
+</head>
+
+<body>
+	<!-- Nombre de la página -->
+	<header>
+		<!-- se visibiliza unicamente el panel cuando el tamaño de la pantalla lo permite -->
+		<div class="container-fluid visible-md visible-lg">
+			<div class="container" style="height:50px;">
+				<div class="row">
+					<div class="col-xs-6">
+						<img src="img/logo_total.jpg" alt="Logo empresarial" class="img-responsive" width="90%" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- se visibiliza unicamente el panel cuando el tamaño de la pantalla lo permite -->
+		<div class="container-fluid visible-xs visible-sm">
+			<div class="container" style="height:30px;padding-top:10px;">
+				<div class="row">
+					<div class="col-xs-11">
+						<img src="img/logo_total.jpg" alt="Logo empresarial" class="img-responsive" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- menú de navegación -->
+		<!-- cuando la pantalla del navegador es pequeño, muestra un menú desplegable -->
+		<div class="navegador">
+			<nav class="navbar navbar-default azul" role="navigation">
+				<div class="container-fluid">
+					<div class="container">
+						<div class="navbar-header">
+							<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#menu">
+								<span class="sr-only">Menu</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="collapse navbar-collapse navbar-right" id="menu">
+							<ul class="nav navbar-nav" role="tablist">
+								<li class="active"><a href="#seccion1">Inicio</a></li>
+								<li><a href="quien_soy.html" style="color:#fff;">Quién Soy</a></li>
+								<li><a href="proyectos.html" style="color:#fff;">Proyectos Realizados</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!-- sección principal -->
+	<section class="Main">
+		<!-- imágenes que van rotando (utilizado javascript) -->
+		<div class="img_principal" id="img_principal" style="width:100%;">
+			<div style="height:350px;" class="visible-xs">
+
+			</div>
+			<div class="visible-sm" style="height:700px;">
+
+			</div>
+			<!-- botones de carreras cursando -->
+			<div style="height:730px;" class="visible-md visible-lg">
+				<div class="container visible-md visible-lg" style="padding-top:650px;">
+					<div class="btn-toolbar" style="">
+						<div class="btn-group btn-group-justified" style="height:60px;">
+							<a href="ingenieria_industrial.html" class="btn btn-primary" style="background-color:rgba(39,30,210,0.5)">Ingeniería Industrial</a>
+							<a href="#" class="btn btn-success" style="background-color:rgba(77,228,74,0.5)" disabled></a>
+							<a href="ingenieria_de_sistemas.html" class="btn btn-primary" style="background-color:rgba(39,30,210,0.5)">Ingeniería de Sistemas</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- botones cuando se ven desde una pantalla pequeña -->
+		<div class="container visible-xs visible-sm" style="padding-top:20px;">
+			<div class="btn-toolbar">
+				<div class="btn-group btn-group-justified" >
+					<a href="ensayo_clinico.html" class="btn btn-primary"  style="font-size:7px;">Ingeniería Industrial</a>
+					<a href="#" class="btn btn-success" style="font-size:7px;" disabled></a>
+					<a href="nuevo_proyecto.html" class="btn btn-primary" style="font-size:7px;">Ingeniería de Sistemas</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- pie de página -->
+	<footer>
+		<div class="visible-xs visible-sm">
+			<br>
+		</div>
+		<div class="hidden-xs hidden-sm" style="background-color:#AAAAAA; height:60px;">
+			<br>
+		</div>
+		<div class="fondo-gris">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-lg-6 hidden-sm hidden-xs">
+						<div class="pie_mapa">
+							<img src="img/Presentacion.png" alt="Imagen de contacto" class="img-responsive" />
+						</div>
+					</div>
+					<!-- datos de página -->
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<div class="pie_direccion" style="color:#fff; padding-top:60px;">
+							<h2 class="titulito">CONTÁCTAME</h2>
+							<p>Bogotá, Colombia</p>
+							<p>di.romero@uniandes.edu.co</p>
+							<p>Teléfono: +57(1) 3043910607</p>
+						</div>
+					</div>
+					<div class="col-xs-2 col-sm-2 hidden-md hidden-lg">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="hidden-xs hidden-sm" style="background-color:#AAAAAA; height:60px;">
+			<br>
+		</div>
+	</footer>
+	<!-- estilos ´propios aplicados sobre la página -->
+	<style>
+		.azul {
+			background-color: #386DDF;
+		}
+		
+		.fondo-gris {
+			background-color: #AAAAAA;
+			height: 305px;
+		}
+		
+		a {
+			color: #fff;
+		}
+		
+		.color {
+			background-color: aqua;
+		}
+		
+		.img_principal {
+			background: url(img/Principal1.jpeg);
+			background-size: cover;
+			background-position: center;
+			width: 100%;
+			transition: 2000ms all ease;
+		}
+		
+		.img_principal1 {
+			background: url(img/Principal2.jpg);
+			background-size: cover;
+			background-position: center;
+			width: 100%;
+			transition: 2000ms all ease;
+		}
+		
+		.img_principal2 {
+			background: url(img/Principal3.jpg);
+			background-size: cover;
+			background-position: center;
+			width: 100%;
+			transition: 2000ms all ease;
+		}
+		
+		.navegador {
+			margin-bottom: -21px;
+		}
+		.pie_direccion{
+			text-align: center;
+		}
+		.pie_social{
+			text-align: center;
+		}
+
+	</style>
+	<!-- script hecho en javascript para el cambio de imagenes -->
+	<script>
+		"use strict";
+		(function() {
+
+			var imagenPrincipal = document.getElementById("img_principal");
+
+			function cambiarImagenPrincipal() {
+				if (imagenPrincipal.className == "img_principal") {
+					imagenPrincipal.setAttribute("class", "img_principal1");
+					return;
+				} else if (imagenPrincipal.className == "img_principal1") {
+					imagenPrincipal.setAttribute("class", "img_principal2");
+					return;
+				} else {
+					imagenPrincipal.setAttribute("class", "img_principal");
+					return;
+				}
+			}
+
+			setInterval(cambiarImagenPrincipal, 3000);
+		}());
+
+	</script>
+	<!-- con ayuda de las librerías de jquery y boot, puedo hacer el cambio de imagenes y ajustar los tamaños de la página respectivamente -->
+	<script src="jquery.js"></script>
+	<script src="boot.js"></script>
+</body>
+
+</html>
