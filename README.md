@@ -28,7 +28,7 @@ Is nesessary to have http-server installed on your machine to deploy this websit
 
 ## Screenshot
 
-![screenshot](https://diromero1.github.io/CoverLetter/quien_soy.html)
+![screenshot](https://github.com/diromero1/CoverLetter/blob/master/img/screenshot.PNG?raw=true)
 
 ## Authors
 
