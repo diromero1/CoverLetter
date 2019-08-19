@@ -13,7 +13,7 @@ Node js, javascript, lately up to date web browser
 ## Deployment
 
 Is nesessary to have http-server installed on your machine to deploy this website
-[Website](https://diromero1.github.io/CoverLetter/quien_soy.html)
+[Website](https://diromero1.github.io/CoverLetter/index.html)
 
 ## Built With
 
@@ -28,7 +28,7 @@ Is nesessary to have http-server installed on your machine to deploy this websit
 
 ## Screenshot
 
-![screenshot](img/screenshot)
+![screenshot](https://diromero1.github.io/CoverLetter/quien_soy.html)
 
 ## Authors
 
